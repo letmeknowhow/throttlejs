@@ -24,7 +24,7 @@
     "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-core/register --reporter spec test/*.js",
     "build": "npm run build:commonjs && npm run build:es",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
-    "build:es": "cross-env BABEL_ENV=commonjs babel src --out-dir es"
+    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
