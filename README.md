@@ -3,13 +3,19 @@ the `throunce` is conflation of two words `throttle` and `debounce`.
 
 ## Installation
 ```sh
-$ npm install @niuxiaoyu/throunce
+$ npm install throunce
 ```
-## Example
+## Usage
 
 ```js
-import { throttle, debounce } from '@niuxiaoyu/throunce';
+import { throttle, debounce } from 'throunce';
 
-window.onresize = throttle(resize, 200);
+throttle(() => {
+  // Throttled function
+}, 500);
+
+debounce(() => {
+  // Debounced function
+}, 500)
 
 ```

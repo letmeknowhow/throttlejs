@@ -1,5 +1,5 @@
 {
-  "name": "@niuxiaoyu/throunce",
+  "name": "throunce",
   "version": "0.0.1",
   "license": "MIT",
   "description": "throttle or debounce a function",
@@ -14,8 +14,7 @@
   "module": "es/index.js",
   "files": [
     "lib",
-    "es",
-    "src"
+    "es"
   ],
   "scripts": {
     "clean": "rimraf lib es",
